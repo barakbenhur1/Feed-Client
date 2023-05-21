@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewPostViewController" customModule="Feed" customModuleProvider="target">
+            <connections>
+                <outlet property="postBody" destination="t2B-jD-LIo" id="Ebk-5u-OxH"/>
+                <outlet property="postTitle" destination="Jy7-tU-M7L" id="y5V-Uv-G4a"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fMG-dw-OBm">
+                    <rect key="frame" x="0.0" y="59" width="51" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="byU-j0-PPN"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" image="arrowshape.turn.up.backward.fill" catalog="system"/>
+                    <connections>
+                        <action selector="back:" destination="-1" eventType="touchUpInside" id="I2o-yM-f8o"/>
+                    </connections>
+                </button>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="lTD-A3-GKR">
+                    <rect key="frame" x="20" y="109" width="353" height="709"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jy7-tU-M7L" customClass="TextView" customModule="Feed" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="353" height="100"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="100" id="Xy7-dL-aNZ"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t2B-jD-LIo" customClass="TextView" customModule="Feed" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="100" width="353" height="569"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fVR-0E-qNn">
+                            <rect key="frame" x="0.0" y="669" width="353" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="HdV-y0-dXc"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="done"/>
+                            <connections>
+                                <action selector="done:" destination="-1" eventType="touchUpInside" id="rKg-zK-am2"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fMG-dw-OBm" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="7wZ-uE-J8s"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="lTD-A3-GKR" secondAttribute="bottom" id="Etv-lO-fjq"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="lTD-A3-GKR" secondAttribute="trailing" constant="20" id="Iq2-bo-sfP"/>
+                <constraint firstItem="lTD-A3-GKR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Zaa-Cc-zrl"/>
+                <constraint firstItem="fMG-dw-OBm" firstAttribute="bottom" secondItem="lTD-A3-GKR" secondAttribute="top" constant="-10" id="m8E-Xi-T2q"/>
+                <constraint firstItem="fMG-dw-OBm" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="nmr-sy-Pdh"/>
+            </constraints>
+            <point key="canvasLocation" x="139.69465648854961" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrowshape.turn.up.backward.fill" catalog="system" width="128" height="104"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

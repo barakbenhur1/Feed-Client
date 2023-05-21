@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TopView" customModule="Feed" customModuleProvider="target">
+            <connections>
+                <outlet property="addButton" destination="val-au-7jK" id="pXd-aD-UbC"/>
+                <outlet property="byLocation" destination="x4q-q0-Vm5" id="iOw-m3-GL8"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="EZq-Y5-Jhn"/>
+                <outlet property="filterButton" destination="IC3-17-yI9" id="JIT-e7-D1R"/>
+                <outlet property="filterView" destination="Dya-uq-OTG" id="4jc-Ll-9fR"/>
+                <outlet property="filterViewHight" destination="4XQ-Dt-USC" id="waR-WM-eNv"/>
+                <outlet property="idFilter" destination="Jjm-g9-Jt0" id="kUd-e7-pxd"/>
+                <outlet property="titleFilter" destination="4st-gO-P6e" id="KGJ-jD-dlB"/>
+                <outlet property="userIdFilter" destination="1Ub-k2-vlv" id="6Ld-d0-DBF"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="556" height="206"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ovU-tV-iDi">
+                    <rect key="frame" x="4" y="4" width="548" height="34.333333333333336"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="val-au-7jK">
+                            <rect key="frame" x="0.0" y="0.0" width="274" height="34.333333333333336"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="TH8-po-nCU"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="plus.square" catalog="system"/>
+                            <connections>
+                                <action selector="addTap:" destination="-1" eventType="touchUpInside" id="nYR-mH-B8O"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IC3-17-yI9">
+                            <rect key="frame" x="274" y="0.0" width="274" height="34.333333333333336"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="line.3.horizontal.decrease.circle" catalog="system"/>
+                            <connections>
+                                <action selector="didFilter:" destination="-1" eventType="touchUpInside" id="GIu-qv-0uo"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="val-au-7jK" firstAttribute="width" secondItem="IC3-17-yI9" secondAttribute="width" id="6bK-xM-FP4"/>
+                        <constraint firstItem="val-au-7jK" firstAttribute="height" secondItem="IC3-17-yI9" secondAttribute="height" id="WO0-06-Z7a"/>
+                    </constraints>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Dya-uq-OTG">
+                    <rect key="frame" x="4" y="46.333333333333336" width="548" height="0.0"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="filtetr by title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4st-gO-P6e">
+                            <rect key="frame" x="0.0" y="0.0" width="548" height="0.0"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="Fva-FZ-Ug8"/>
+                            </connections>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="filter by id" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jjm-g9-Jt0">
+                            <rect key="frame" x="0.0" y="0.0" width="548" height="0.0"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="RTq-Ui-4pH"/>
+                            </connections>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="filter by user id" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Ub-k2-vlv">
+                            <rect key="frame" x="0.0" y="0.0" width="548" height="0.0"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="t42-BY-ZLx"/>
+                            </connections>
+                        </textField>
+                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OJO-oP-E0i">
+                            <rect key="frame" x="0.0" y="0.0" width="548" height="0.0"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  filter by location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tuo-bb-CH1">
+                                    <rect key="frame" x="0.0" y="0.0" width="111.66666666666667" height="0.0"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" systemColor="systemGray4Color"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x4q-q0-Vm5">
+                                    <rect key="frame" x="111.66666666666666" y="0.0" width="436.33333333333337" height="0.0"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" image="checkmark.circle.fill" catalog="system"/>
+                                    <connections>
+                                        <action selector="byLocation:" destination="-1" eventType="touchUpInside" id="j7t-zK-IMk"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" id="4XQ-Dt-USC"/>
+                        <constraint firstItem="1Ub-k2-vlv" firstAttribute="height" secondItem="Jjm-g9-Jt0" secondAttribute="height" id="Gq1-NV-SMb"/>
+                        <constraint firstItem="4st-gO-P6e" firstAttribute="height" secondItem="Jjm-g9-Jt0" secondAttribute="height" id="Pf8-3w-XPA"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Dya-uq-OTG" secondAttribute="trailing" constant="4" id="1UK-rx-Q3i"/>
+                <constraint firstAttribute="bottom" secondItem="Dya-uq-OTG" secondAttribute="bottom" constant="4" id="8Nh-FR-b6e"/>
+                <constraint firstItem="Dya-uq-OTG" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="4" id="B1e-PU-6ql"/>
+                <constraint firstItem="Dya-uq-OTG" firstAttribute="top" secondItem="ovU-tV-iDi" secondAttribute="bottom" constant="8" id="IOL-QV-mKc"/>
+                <constraint firstAttribute="trailing" secondItem="ovU-tV-iDi" secondAttribute="trailing" constant="4" id="bN4-Y9-oyk"/>
+                <constraint firstItem="ovU-tV-iDi" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="4" id="eYY-MI-Ran"/>
+                <constraint firstItem="ovU-tV-iDi" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="4" id="gPG-Iz-Wd7"/>
+                <constraint firstItem="ovU-tV-iDi" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="4" id="jOb-nl-0Bh"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ovU-tV-iDi" secondAttribute="trailing" constant="4" id="old-FF-0rh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="264.12213740458014" y="-207.74647887323945"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="checkmark.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="line.3.horizontal.decrease.circle" catalog="system" width="128" height="123"/>
+        <image name="plus.square" catalog="system" width="128" height="114"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FCDA1679-0A6A-42D6-ACCD-A0B31D25E610"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F5DBBE5-1903-4129-A43A-20C40E19181F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Feed/ViewModel/AddPhotoViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "addPhoto(numOfItems:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0F5DBBE5-1903-4129-A43A-20C40E19181F - 6d05b0c6b289d737"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Feed.AddPhotoViewModel.callFuncToGetData() -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewModel/AddPhotoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  uuid = "0F5DBBE5-1903-4129-A43A-20C40E19181F - 8c5eda60d66bc344"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in Feed.AddPhotoViewModel.callFuncToGetData() -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewModel/AddPhotoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "0F5DBBE5-1903-4129-A43A-20C40E19181F - b8d856ad14b29335"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Feed.AddPhotoViewModel.callFuncToGetData() -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewModel/AddPhotoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "65">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2B7B23F1-FBC3-406B-9F89-1251A247756F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Feed/ViewModel/ToDoViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "updateToDo(id:title:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2B7B23F1-FBC3-406B-9F89-1251A247756F - 4686b3d99b769209"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; Swift.Result&lt;Feed.Empty, Swift.Error&gt; in Feed.ToDoViewModel.updateToDo(id: Swift.String, title: Swift.String) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewModel/ToDoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "78">
+               </Location>
+               <Location
+                  uuid = "2B7B23F1-FBC3-406B-9F89-1251A247756F - 740ca0451a4512ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; Swift.Result&lt;Feed.Empty, Swift.Error&gt; in Feed.ToDoViewModel.updateToDo(id: Swift.String, title: Swift.String) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewModel/ToDoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "2B7B23F1-FBC3-406B-9F89-1251A247756F - e4aa0bbd1c982e07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; Swift.Result&lt;Feed.Empty, Swift.Error&gt; in Feed.ToDoViewModel.updateToDo(id: Swift.String, title: Swift.String) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewModel/ToDoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "50">
+               </Location>
+               <Location
+                  uuid = "2B7B23F1-FBC3-406B-9F89-1251A247756F - 4686b3d99b769209"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; Swift.Result&lt;Feed.Empty, Swift.Error&gt; in Feed.ToDoViewModel.updateToDo(id: Swift.String, title: Swift.String) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewModel/ToDoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "2B7B23F1-FBC3-406B-9F89-1251A247756F - 740ca0451a4512ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; Swift.Result&lt;Feed.Empty, Swift.Error&gt; in Feed.ToDoViewModel.updateToDo(id: Swift.String, title: Swift.String) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewModel/ToDoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "2B7B23F1-FBC3-406B-9F89-1251A247756F - e4aa0bbd1c982e07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; Swift.Result&lt;Feed.Empty, Swift.Error&gt; in Feed.ToDoViewModel.updateToDo(id: Swift.String, title: Swift.String) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewModel/ToDoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "55D8D132-835B-4ADE-BECD-6091DC389856"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Feed/ViewModel/PhotosViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "updatePhoto(id:title:photo:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "55D8D132-835B-4ADE-BECD-6091DC389856 - 37577359014821f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; Swift.Result&lt;Feed.Empty, Swift.Error&gt; in Feed.PhotosViewModel.updatePhoto(id: Swift.String, title: Swift.String, photo: Swift.String) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewModel/PhotosViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "89">
+               </Location>
+               <Location
+                  uuid = "55D8D132-835B-4ADE-BECD-6091DC389856 - 7a91f3c11b40ada6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; Swift.Result&lt;Feed.Empty, Swift.Error&gt; in Feed.PhotosViewModel.updatePhoto(id: Swift.String, title: Swift.String, photo: Swift.String) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewModel/PhotosViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "55D8D132-835B-4ADE-BECD-6091DC389856 - 19d195c824f1e5f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; Swift.Result&lt;Feed.Empty, Swift.Error&gt; in Feed.PhotosViewModel.updatePhoto(id: Swift.String, title: Swift.String, photo: Swift.String) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewModel/PhotosViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "61">
+               </Location>
+               <Location
+                  uuid = "55D8D132-835B-4ADE-BECD-6091DC389856 - 37577359014821f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; Swift.Result&lt;Feed.Empty, Swift.Error&gt; in Feed.PhotosViewModel.updatePhoto(id: Swift.String, title: Swift.String, photo: Swift.String) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewModel/PhotosViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "55D8D132-835B-4ADE-BECD-6091DC389856 - 7a91f3c11b40ada6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; Swift.Result&lt;Feed.Empty, Swift.Error&gt; in Feed.PhotosViewModel.updatePhoto(id: Swift.String, title: Swift.String, photo: Swift.String) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewModel/PhotosViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "55D8D132-835B-4ADE-BECD-6091DC389856 - 19d195c824f1e5f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; Swift.Result&lt;Feed.Empty, Swift.Error&gt; in Feed.PhotosViewModel.updatePhoto(id: Swift.String, title: Swift.String, photo: Swift.String) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewModel/PhotosViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AFF0D630-7604-4306-9516-4977891513E6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Feed/ViewControllers/PostViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "map()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AFF0D630-7604-4306-9516-4977891513E6 - fcf8a9c6f9f01b2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed.PostViewController.map() -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewControllers/PostViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "69">
+               </Location>
+               <Location
+                  uuid = "AFF0D630-7604-4306-9516-4977891513E6 - fcf8a9c6f9f01b2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed.PostViewController.map() -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewControllers/PostViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  uuid = "AFF0D630-7604-4306-9516-4977891513E6 - fcf8a9c6f9f01b2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed.PostViewController.map() -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewControllers/PostViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "AFF0D630-7604-4306-9516-4977891513E6 - fcf8a9c6f9f01b2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed.PostViewController.map() -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewControllers/PostViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "148">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B399F2D-A44C-4DA2-8337-A63F9D537CFF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Feed/ViewControllers/UserViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3B399F2D-A44C-4DA2-8337-A63F9D537CFF - bfa862c104b8763a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed.UserViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewControllers/UserViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "4507">
+               </Location>
+               <Location
+                  uuid = "3B399F2D-A44C-4DA2-8337-A63F9D537CFF - bfa862c104b8763a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed.UserViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewControllers/UserViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "4088">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7CC019F5-3270-4497-9E1C-7F58326E3A74"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Feed/ViewControllers/UsersViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "didSelect(index:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7CC019F5-3270-4497-9E1C-7F58326E3A74 - fe504ea0e8dbffe1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed.UsersViewController.didSelect(index: Swift.Int) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewControllers/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "12732">
+               </Location>
+               <Location
+                  uuid = "7CC019F5-3270-4497-9E1C-7F58326E3A74 - fe504ea0e8dbffe1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed.UsersViewController.didSelect(index: Swift.Int) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewControllers/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "13444">
+               </Location>
+               <Location
+                  uuid = "7CC019F5-3270-4497-9E1C-7F58326E3A74 - fe504ea0e8dbffe1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed.UsersViewController.didSelect(index: Swift.Int) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewControllers/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "8608">
+               </Location>
+               <Location
+                  uuid = "7CC019F5-3270-4497-9E1C-7F58326E3A74 - fe504ea0e8dbffe1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed.UsersViewController.didSelect(index: Swift.Int) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewControllers/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "9060">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6E6C508F-4CC9-4F85-A3AA-A09B2AFBC476"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Feed/ViewControllers/NewUserViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "done(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6E6C508F-4CC9-4F85-A3AA-A09B2AFBC476 - c6d5aa05565a6224"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed.NewUserViewController.done(__C.UIButton) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewControllers/NewUserViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "7460">
+               </Location>
+               <Location
+                  uuid = "6E6C508F-4CC9-4F85-A3AA-A09B2AFBC476 - c6d5aa05565a6224"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed.NewUserViewController.done(__C.UIButton) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewControllers/NewUserViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "7711">
+               </Location>
+               <Location
+                  uuid = "6E6C508F-4CC9-4F85-A3AA-A09B2AFBC476 - c6d5aa05565a6224"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed.NewUserViewController.done(__C.UIButton) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewControllers/NewUserViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "6280">
+               </Location>
+               <Location
+                  uuid = "6E6C508F-4CC9-4F85-A3AA-A09B2AFBC476 - c6d5aa05565a6224"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed.NewUserViewController.done(__C.UIButton) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewControllers/NewUserViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "6520">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D4406F74-3774-4715-8C8C-0FFAEE0B4B37"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Feed/ViewControllers/PhotosViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "updateDataSource(items:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D4406F74-3774-4715-8C8C-0FFAEE0B4B37 - 386954fd57149239"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Feed.PhotoCollectionViewCell, Feed.Photo) -&gt; () in Feed.PhotosViewController.updateDataSource(items: Swift.Array&lt;Feed.ModelProtocol&gt;) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewControllers/PhotosViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "149">
+               </Location>
+               <Location
+                  uuid = "D4406F74-3774-4715-8C8C-0FFAEE0B4B37 - 386954fd57149239"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Feed.PhotoCollectionViewCell, Feed.Photo) -&gt; () in Feed.PhotosViewController.updateDataSource(items: Swift.Array&lt;Feed.ModelProtocol&gt;) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewControllers/PhotosViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "195">
+               </Location>
+               <Location
+                  uuid = "D4406F74-3774-4715-8C8C-0FFAEE0B4B37 - 386954fd57149239"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Feed.PhotoCollectionViewCell, Feed.Photo) -&gt; () in Feed.PhotosViewController.updateDataSource(items: Swift.Array&lt;Feed.ModelProtocol&gt;) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/ViewControllers/PhotosViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "244">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "773C8057-6602-4A1A-8F51-1E916C894C7F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Feed/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "locationManager(_:didUpdateLocations:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "773C8057-6602-4A1A-8F51-1E916C894C7F - 269b636ea85aa6ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed.AppDelegate.locationManager(_: __C.CLLocationManager, didUpdateLocations: Swift.Array&lt;__C.CLLocation&gt;) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "105">
+               </Location>
+               <Location
+                  uuid = "773C8057-6602-4A1A-8F51-1E916C894C7F - 269b636ea85aa6ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed.AppDelegate.locationManager(_: __C.CLLocationManager, didUpdateLocations: Swift.Array&lt;__C.CLLocation&gt;) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "54">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3DA85D69-7515-4E0D-959D-5E596B28DDB8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Feed/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "locationManagerDidChangeAuthorization(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3DA85D69-7515-4E0D-959D-5E596B28DDB8 - ee2a6fc9f63aca0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed.AppDelegate.locationManagerDidChangeAuthorization(__C.CLLocationManager) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "38">
+               </Location>
+               <Location
+                  uuid = "3DA85D69-7515-4E0D-959D-5E596B28DDB8 - ee2a6fc9f63aca0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed.AppDelegate.locationManagerDidChangeAuthorization(__C.CLLocationManager) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "50">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DDAFC534-5738-4DC6-B709-E622BBD45A6F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Feed/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "locationManager(_:didDetermineState:for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DDAFC534-5738-4DC6-B709-E622BBD45A6F - 77f21c9b0e2546c4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed.AppDelegate.locationManager(_: __C.CLLocationManager, didDetermineState: __C.CLRegionState, for: __C.CLRegion) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "119"
+                  endingLineNumber = "119"
+                  offsetFromSymbolStart = "62">
+               </Location>
+               <Location
+                  uuid = "DDAFC534-5738-4DC6-B709-E622BBD45A6F - 77f21c9b0e2546c4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed.AppDelegate.locationManager(_: __C.CLLocationManager, didDetermineState: __C.CLRegionState, for: __C.CLRegion) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "119"
+                  endingLineNumber = "119"
+                  offsetFromSymbolStart = "74">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "82067965-80C3-438F-AB3C-15E1339FED28"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Feed/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "locationManager(_:didChangeAuthorization:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "82067965-80C3-438F-AB3C-15E1339FED28 - 6284a776ad20f303"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed.AppDelegate.locationManager(_: __C.CLLocationManager, didChangeAuthorization: __C.CLAuthorizationStatus) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  uuid = "82067965-80C3-438F-AB3C-15E1339FED28 - 6284a776ad20f3e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed.AppDelegate.locationManager(_: __C.CLLocationManager, didChangeAuthorization: __C.CLAuthorizationStatus) -&gt; ()"
+                  moduleName = "Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barak%20ben%20hur/Desktop/Projects/Feed/Feed/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "86">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewToDoViewController" customModule="Feed" customModuleProvider="target">
+            <connections>
+                <outlet property="textView" destination="Lv6-V8-jrc" id="5Am-ck-S27"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kip-PC-A36">
+                    <rect key="frame" x="0.0" y="59" width="51" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="ZVF-UL-LJM"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" image="arrowshape.turn.up.backward.fill" catalog="system"/>
+                    <connections>
+                        <action selector="back:" destination="-1" eventType="touchUpInside" id="PFn-6P-Brv"/>
+                    </connections>
+                </button>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="g9Q-Jx-nZt">
+                    <rect key="frame" x="0.0" y="109" width="393" height="709"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lv6-V8-jrc" customClass="TextView" customModule="Feed" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="669"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C1V-Fm-d4o">
+                            <rect key="frame" x="0.0" y="669" width="393" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="Su2-fC-TjN"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="done"/>
+                            <connections>
+                                <action selector="done:" destination="-1" eventType="touchUpInside" id="ajN-E3-4Kl"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="g9Q-Jx-nZt" secondAttribute="trailing" id="3Aa-qq-N0u"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="g9Q-Jx-nZt" secondAttribute="bottom" id="VCq-9G-xoo"/>
+                <constraint firstItem="g9Q-Jx-nZt" firstAttribute="top" secondItem="Kip-PC-A36" secondAttribute="bottom" constant="10" id="VPz-nd-3mD"/>
+                <constraint firstItem="g9Q-Jx-nZt" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="iCM-aL-Q4n"/>
+                <constraint firstItem="Kip-PC-A36" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="j0n-Ln-3oR"/>
+                <constraint firstItem="Kip-PC-A36" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="jVw-2r-n11"/>
+            </constraints>
+            <point key="canvasLocation" x="139.69465648854961" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrowshape.turn.up.backward.fill" catalog="system" width="128" height="104"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
